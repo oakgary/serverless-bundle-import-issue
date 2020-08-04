@@ -1,0 +1,8 @@
+{
+  "name": "my_service",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "serverless offline --stage staging -P 8111",
+    "build": "serverless package --stage staging"
+  }
+}
