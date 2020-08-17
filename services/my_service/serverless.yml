@@ -57,4 +57,3 @@ resources:
                           - Ref: "AWS::Region"
                           - Ref: "AWS::AccountId"
                           - "log-group:/aws/lambda/*:*:*"
-            PolicyName: log
