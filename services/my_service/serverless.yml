@@ -17,7 +17,6 @@ custom:
   stage: ${opt:stage, self:provider.stage}
   bundle:
     packager: yarn
-    tsConfig: '../../tsconfig.json'
 
 functions:
   myLambda:
